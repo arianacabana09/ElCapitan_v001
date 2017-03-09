@@ -8,8 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SPRINT 1</title>
 </head>
+
 <body>
-  <div class="">
+  <div class="Contenido">
     <h2>Sprint 1: Introduccion a JavaScript</h2>
     <ol>
       <li>Fundamentos de Programacion</li>
@@ -17,36 +18,30 @@
       <li>Arreglos</li>
       <li>Objetos</li>
     </ol>
-  </div>
-  <hr>
-  <form class="" method="post">
-  <div>
+    <hr>
     <h3>Quiz</h3>
-    <b><label for="r1" id="pregunta1" required>Existen dos tipos de funciones</label></b>
+    <div id="quiz1">
+      <b><label id="pregunta1" required>Existen dos tipos de funciones</label></b>
+      <br>
+      <input type="radio" name="rb1" id="r1"> Expresadas y declaradas<br>
+      <input type="radio" name="rb1" id="r2"> Explicitas y declaradas<br>
+      <input type="radio" name="rb1" id="r3"> Expresadas y derivadas
+      <br>
+      <b><label id="pregunta2">Elije una propiedad de los arreglos</label></b>
+      <br>
+      <input type="radio" name="rb2" id="r4"> clear<br>
+      <input type="radio" name="rb2" id="r5"> pop<br>
+      <input type="radio" name="rb2" id="r6"> add
     <br>
-      <input type="radio" name="r1" id="r1"> Expresadas y declaradas<br>
-      <input type="radio" name="r1" id="r2"> Explicitas y declaradas<br>
-      <input type="radio" name="r1" id="r3"> Expresadas y derivadas
-  </div>
-  <br>
-  <div class="">
-    <b><label for="r2" id="pregunta2">Elije una propiedad de los arreglos</label></b>
-    <br>
-      <input type="radio" name="r2" id="r4"> clear<br>
-      <input type="radio" name="r2" id="r5"> pop<br>
-      <input type="radio" name="r2" id="r6"> add
+      <b><label id="pregunta3">Un Objeto tiene __________ y __________</label></b>
+      <br>
+      <input type="radio" name="rb3" id="r7"> numeros y letras<br>
+      <input type="radio" name="rb3" id="r8"> partes y validaciones<br>
+      <input type="radio" name="rb3" id="r9"> propiedades y valores<br>
+      <br>
+      <button type="" name="enviar" id="enviar">Enviar</button>
     </div>
-    <br>
-    <div class="">
-    <b><label for="r3" id="pregunta3">Un Objeto tiene __________ y __________</label></b>
-    <br>
-      <input type="radio" name="r3" id="r7"> numeros y letras<br>
-      <input type="radio" name="r3" id="r8"> partes y validaciones<br>
-      <input type="radio" name="r3" id="r9"> propiedades y valores<br>
   </div>
-  <br>
-  <button type="" name="enviar" id="enviar" onclick="quiz1()">Enviar</button>
-  </form>
   <script type="text/javascript" src="assets\js\sprint1.js"></script>
 </body>
 </html>

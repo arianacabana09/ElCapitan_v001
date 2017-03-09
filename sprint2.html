@@ -8,9 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SPRINT 2</title>
 </head>
-
 <body>
-  <div class="">
+  <div id="contenido">
     <h2>Sprint 2: Introduccion al desarrollo web y construccion de páginas web</h2>
     <ol>
       <li>Ciclo de vida del desarrollo web y arquitectura básica cliente / Configuracion del ambiente de trabajo e introduccion al git.</li>
@@ -20,39 +19,30 @@
       <li>Git / Resolucion de conflictos / Branching model</li>
       <li>DOM</li>
     </ol>
+    <hr>
+    <div id="quiz1">
+      <h3>Quiz</h3>
+      <b><label id="pregunta1">¿Cuál es el comando para iniciar un repositorio desde la consola?</label></b>
+      <br>
+      <input type="radio" name="rb1" id="r1" > git init .<br>
+      <input type="radio" name="rb1" id="r2"> git init<br>
+      <input type="radio" name="rb1" id="r3"> git init add
+      <br><br>
+      <b><label id="pregunta2">¿Cuál es la finalidad de hacer una prueba unitaria?</label></b>
+      <br>
+      <input type="radio" name="rb2" value="" > Comprobar que el codigo funciona correctamente<br>
+      <input type="radio" name="rb2" value=""> Darle valores a los parametros de dichas funciones<br>
+      <input type="radio" name="rb2" value=" add"> No tiene ningun fin
+      <br><br>
+      <b><label id="pregunta3">¿Qué significa DOM?</label></b>
+      <br>
+      <input type="radio" name="rb3" value=""> Dual Object Model<br>
+      <input type="radio" name="rb3" value=""> Document Object Model<br>
+      <input type="radio" name="rb3" value=""> Document Obsolet Model
+      <br><br>
+      <button type="" name="enviar" id="enviar">Enviar</button>
+    </div>
   </div>
-  <hr>
-  <form class="" method="post">
-  <div class="">
-    <h3>Quiz</h3>
-    <b><label for="r1" id="pregunta1" requiered>¿Cuál es el comando para iniciar un repositorio desde la consola?</label></b>
-    <br>
-    <input type="radio" name="r1" id="r1" > git init .<br>
-    <input type="radio" name="r1" id="r2"> git init<br>
-    <input type="radio" name="r1" id="r3"> git init add
-
-  </div>
-  <br>
-  <div class="">
-    <b><label for="r2" id="pregunta2">¿Cuál es la finalidad de hacer una prueba unitaria?</label></b>
-    <br>
-      <input type="radio" name="r2" value="" > Comprobar que el codigo funciona correctamente<br>
-      <input type="radio" name="r2" value=""> Darle valores a los parametros de dichas funciones<br>
-      <input type="radio" name="r2" value=" add"> No tiene ningun fin
-
-  </div>
-  <br>
-  <div class="">
-    <b><label for="r3" id="pregunta3">¿Qué significa DOM?</label></b>
-    <br>
-      <input type="radio" name="r3" value=""> Dual Object Model<br>
-      <input type="radio" name="r3" value=""> Document Object Model<br>
-      <input type="radio" name="r3" value=""> Document Obsolet Model
-
-  </div>
-  <br>
-  <button type="" name="enviar" id="enviar" onclick="quiz1()">Enviar</button>
-  </form>
   <script type="text/javascript" src="assets\js\sprint2.js"></script>
 </body>
 </html>
